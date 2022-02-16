@@ -57,3 +57,24 @@ body{
     color: var(--secondary-color);
     font-family: serif, Helvetica, sans-serif;
 }
+
+/* Hero/Landing Image Start */
+
+.hero {
+    background-image: url("../images/copper_dice_on_black_1.jpg");
+    background-size: cover;
+    background-position: 0 57%;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: flex-start;
+    height: 90vh;
+    width: 99vw ;
+    overflow: hidden;
+}
+
+/* Section-About Me */
+
+.section-title {
+
+}
