@@ -8,9 +8,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    color: var(--secondary-color);
+}
+
 body a, a:visited {
     text-decoration: none;
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
 }
 
 /* Header Start */
@@ -53,10 +58,7 @@ header nav ul li a:hover {
     color: var(--secondary-color);
     border-radius: 15px;
 }
-body{
-    color: var(--secondary-color);
-    font-family: serif, Helvetica, sans-serif;
-}
+
 
 /* Hero/Landing Image Start */
 
@@ -71,6 +73,12 @@ body{
     height: 90vh;
     width: 99vw ;
     overflow: hidden;
+}
+
+.hero-text {
+    font-family: cursive, Helvetica;
+    font-size: 60px;
+    
 }
 
 /* Section-About Me */
