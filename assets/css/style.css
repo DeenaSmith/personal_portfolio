@@ -1,7 +1,8 @@
 :root {
     --primary-color: #000000;
     --secondary-color:#D3D3D3;
-    --tertiary-color:#565656;
+    /* --tertiary-color:#565656; */
+    --tertiary-color:#fff;
 }
 * {
     margin: 0;
@@ -10,7 +11,8 @@
 }
 
 body{
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
+    background-color: #000;
 }
 
 body a, a:visited {
@@ -37,7 +39,7 @@ header {
 
 header h1 {
     font-weight: bold;
-    font-size: 4vh;
+    font-size: 3vh;
     color: var(--secondary-color);
     margin: 0;
 }
@@ -91,6 +93,7 @@ header nav ul li a:hover {
     font-family: cursive, Helvetica;
     font-size: 4vh;
     font-weight: lighter;
+
 }
 
 
@@ -99,8 +102,7 @@ header nav ul li a:hover {
 
 #about-me{
     text-align: center;
-    color: #000;
-    margin: 10vh 5vh;
+    margin: 5vh;
 }
 
 
@@ -108,45 +110,56 @@ header nav ul li a:hover {
 /* Projects Section */
 
 #projects{
-    text-align: center;
     color: #000;
+   
 }
 
-
-/* Run Buddy */
-
-#run-buddy-image {
-    height: 50vh;
-    width: 60vw ;
+.section-title{
+    padding: 2vh;
+    text-align: center;
 }
 
-#run-buddy-image img{
-    height: 100%;
+.projects-wrapper{
+    margin-bottom: 10vh;
+    height: 40vh;
     width: 100vw;
 }
 
-/* Robot Gladiators */
-
-
-#robot-image {
-    height: 50vh;
-    width: 100vw ;
+.project-titles{
+    padding-left: 8%;
 }
 
-#robot-image img{
+
+#projects img{
     height: 100%;
     width: 100%;
 }
 
-/* Password Image */
-
-
-#password-image {
+#run-buddy{
+    margin-bottom: 10vh;
     height: 50vh;
-    width: 100vw ;
+    width: 100vw;
 }
-
-#password-image img{
+#run-buddy img{
     height: 100%;
     width: 100%;
 }
+
+
+footer{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    padding: 5vh 2vh;
+    font-size: 12px;
+    text-align: center;
+}
+
+footer a{
+    padding: 1vh;
+}
+
+
+@media only screen and (min-width: 1025px) {
+  
+  }
