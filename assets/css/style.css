@@ -30,11 +30,14 @@ header {
     position: sticky;
     top: 0;
     z-index: 9999;
+    width: 100%;
+    height: 100%;
+
 }
 
 header h1 {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 4vh;
     color: var(--secondary-color);
     margin: 0;
 }
@@ -50,7 +53,7 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 2vh;
 }
 
 header nav ul li a:hover {
@@ -60,29 +63,90 @@ header nav ul li a:hover {
 }
 
 
+
+
+#head-shot img{
+  
+    border-radius: 50%;
+}
+
+
 /* Hero/Landing Image Start */
 
 .hero {
     background-image: url("../images/copper_dice_on_black_1.jpg");
-    background-size: cover;
+    /* background-size: cover; */
     background-position: 0 57%;
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;
-    align-items: flex-start;
-    height: 90vh;
-    width: 99vw ;
+    align-content: center;
+    text-align: center;
+    height: 75vh;
+    width: 100vw ;
     overflow: hidden;
 }
 
 .hero-text {
     font-family: cursive, Helvetica;
-    font-size: 60px;
-    
+    font-size: 4vh;
+    font-weight: lighter;
 }
+
+
 
 /* Section-About Me */
 
-.section-title {
+#about-me{
+    text-align: center;
+    color: #000;
+    margin: 10vh 5vh;
+}
 
+
+
+/* Projects Section */
+
+#projects{
+    text-align: center;
+    color: #000;
+}
+
+
+/* Run Buddy */
+
+#run-buddy-image {
+    height: 50vh;
+    width: 60vw ;
+}
+
+#run-buddy-image img{
+    height: 100%;
+    width: 100vw;
+}
+
+/* Robot Gladiators */
+
+
+#robot-image {
+    height: 50vh;
+    width: 100vw ;
+}
+
+#robot-image img{
+    height: 100%;
+    width: 100%;
+}
+
+/* Password Image */
+
+
+#password-image {
+    height: 50vh;
+    width: 100vw ;
+}
+
+#password-image img{
+    height: 100%;
+    width: 100%;
 }
